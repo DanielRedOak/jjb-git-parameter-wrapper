@@ -31,7 +31,9 @@ def git_parameter(parser, xml_parent, data):
             ('tag-filter', 'tagFilter'),
             ('sort-mode', 'sortMode'),
             ('default-value', 'defaultValue'),
-            ('quick-filter', 'quickFilterEnabled')
+            ('quick-filter', 'quickFilterEnabled'),
+            ('selected-value', 'selectedValue'),
+            ('use-repository', 'useRepository')
    ):
      value = data.get(opt, '')
      if isinstance(notifier, str):
